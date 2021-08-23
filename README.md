@@ -1,2 +1,5 @@
 # benefixMe
-react app 
+Running the examples:
+
+$ npm install
+$ npm start
