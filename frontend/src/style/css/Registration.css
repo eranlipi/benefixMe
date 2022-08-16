@@ -1,0 +1,202 @@
+h4 {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.container-registration{
+    height: 100%;
+    /* width: calc(100%-10px); */
+    /* width:100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline-end:5px ;
+    margin-inline-start:5px ;
+}
+.action-btn{
+    /* height: 100%; */
+    height: 40px;
+    width: 50vw;
+    border-radius: 4px;
+    color: black;
+    border: 3px solid rgba(77, 77, 77, 0);
+    background-color: #818a91;
+    color:azure;
+    font-size: 1.3rem;
+    border: 0;
+    outline: 0;
+    /* margin-bottom: 10%; */
+}
+.action-btn:hover{
+    /* height: 100%; */
+    height: 40px;
+    width: 50vw;
+    border-radius: 4px;
+    color: white;
+    border: 3px solid rgba(77, 77, 77, 0);
+    background-color: rgb(113 112 112);
+    /* margin-bottom: 10%; */
+}
+.head-registration {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.registration-form {
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+
+.registration-step {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+fieldset{
+    width: 45%;
+}
+.step{
+    height: 40px;
+    width:  50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-step{
+    width: calc(100% - 5px);
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+    border-bottom: 1px solid white;
+}
+
+.active-step{
+    background-color: coral;
+}
+
+.inputs-singup{
+    width: 100%;
+    /* margin-bottom: 10px; */
+    /* padding: 5px;  */
+    font-size: 1rem;
+    text-align: right;
+    margin-bottom: 10px;
+    border: 3px solid rgba(77, 77, 77, 0);
+    background-color: #EAECEF;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+
+
+input[type='password'].inputs-singup {
+    font-size: 1rem;
+    height: 5vh;
+    text-align: right;
+    padding: 0; 
+    /* width: 100%; */
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    border: 3px solid rgba(77, 77, 77, 0);
+    border: 0;
+    outline: 0;
+}
+
+.list-courses {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    cursor: pointer
+  }
+
+ i.list-courses {
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+
+  .circle-btn-x {
+    content: "\f057";
+}
+.user-selected-club {
+    /* width: 99%; */
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    margin-bottom: 10%;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.close-small-btn{
+    margin-inline-end: 5px;
+}
+
+select.club-list{
+    width: 100%;
+    height: 30px;
+    font-family: 'Assistant', sans-serif;
+    direction: rtl;
+    /* box-shadow: 2px 2px #9c9a9a; */
+    /* border: none; */
+    
+    /* padding: 7px; */
+}
+.label-text{
+    display: flex;
+    width: 100%;
+    font-size: 1.3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.password-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    border: 0;
+    outline: 0;
+}
+.error-password {
+    font-size: 1rem;
+    height: 5vh;
+    text-align: right;
+    padding: 0; 
+    /* width: 100%; */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(232 240 254);
+
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.password-messages {
+    color: red;
+    font-size: 1rem;
+}
+.disply{
+    display:none
+}
+/* select{
+    
+    width: 100%;
+    font-family: 'Assistant', sans-serif;
+}
+option{
+    font-family: 'Assistant', sans-serif;
+    text-align: end;
+
+} */

@@ -1,0 +1,21 @@
+.cont-msg{
+    margin: 4px;
+    /* margin-top: 50px; */
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-block-start: ;
+    align-items: center;
+    width: 100%;
+    
+}
+.cont-msg p {
+    margin: 5px;
+    padding: 0;
+}
+.cont-msg>p{
+    font-size: 1.4rem;
+    
+}

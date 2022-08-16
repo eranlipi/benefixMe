@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f022679.chunk.css",
+    "main.js": "/static/js/main.99080a13.chunk.js",
+    "main.js.map": "/static/js/main.99080a13.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7fc72f39.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7fc72f39.js.map",
+    "static/js/2.7efe66ac.chunk.js": "/static/js/2.7efe66ac.chunk.js",
+    "static/js/2.7efe66ac.chunk.js.map": "/static/js/2.7efe66ac.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.5f022679.chunk.css.map": "/static/css/main.5f022679.chunk.css.map",
+    "static/js/2.7efe66ac.chunk.js.LICENSE.txt": "/static/js/2.7efe66ac.chunk.js.LICENSE.txt",
+    "static/media/benefix-me.1d66594d.png": "/static/media/benefix-me.1d66594d.png",
+    "static/media/selectIcon.1eaae6e2.png": "/static/media/selectIcon.1eaae6e2.png",
+    "static/media/user-img.81988db6.png": "/static/media/user-img.81988db6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fc72f39.js",
+    "static/js/2.7efe66ac.chunk.js",
+    "static/css/main.5f022679.chunk.css",
+    "static/js/main.99080a13.chunk.js"
+  ]
+}
