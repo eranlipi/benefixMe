@@ -1,0 +1,35 @@
+
+
+.about-as-container{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-as-container p{
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* line-height: 1.5em; */
+
+}
+.section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.about-as-img{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,105 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  /* border: 0px solid rgb(255, 255, 255); */
+  height: 5vh;
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  /* -webkit-box-shadow: 0 0 0px 1000px rgb(255, 255, 255) inset; */
+  /* transition: background-color 5000s ease-in-out 0s; */
+  padding: 0px;
+
+}
+
+::placeholder {
+    direction: rtl;
+    color: rgba(138, 138, 138, 0.568);
+    height: 6vh;
+    /* padding: 0px; */
+    padding-right: 5px;
+
+}
+
+*:focus {
+    outline: none;
+    /* height: 50px; */
+}
+
+input[type='text']{
+    font-size: 1rem;
+    text-align:right;
+    /* border: 3px solid rgba(77, 77, 77, 0); */
+    border: 0;
+    outline: 0;
+    height: 5vh;
+    padding: 0px;
+
+}
+
+
+input[type='text']:focus {
+    /* height: 50px; */
+    font-family: 'Assistant', sans-serif;
+    outline: none;
+    padding: 0px;
+
+  }
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* And hide the input's outline, so the form looks like the outline */
+    border:none;
+    /* margin-top: 15px; */
+    /* margin-bottom: 15px; */
+}
+
+.text-search{
+    width: 100%;
+    background-color:#EAECEF;
+    /* border: 1px solid #ccc; */
+    border: none;
+    border-radius: 0px 5px 5px 0px; 
+    -webkit-appearance: none;
+    padding: 0px;
+
+   
+}
+.search-container{
+    display:flex;
+    width: 50vw;
+    flex-direction:row-reverse;
+    outline: none;
+    border-radius: 8px;
+    height: 6vh;
+
+}
+
+.search-container:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+.cancel-btn{
+    border:1px solid white;
+    background:rgb(255, 255, 255);
+    color:rgb(109, 109, 109);
+    border:none;
+    border-radius: 5px 0 0px 8px ;
+ 
+}
+.action-search{
+  border: none;
+  height: 5vh;
+
+  background-color: #818a91;
+  color: white;
+  border-radius: 5px 0px 0 5px; 
+}

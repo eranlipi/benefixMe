@@ -1,0 +1,51 @@
+.selected{
+    height:auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-block-end: 50px; */
+}
+
+.select{
+
+    height: 30px;
+    /* width: 60%; */
+    border-radius: 8px;
+    font-size: 1rem ;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    /* margin-bottom: 15%; */
+    background-color: #EAECEF;
+    
+}
+option{
+    text-align: center;
+
+}
+select.select.select-clab { 
+    text-align-last:right;
+    width: 50vw;
+    /* margin-top: 15px; */
+    direction: rtl;
+    height: 5vh;
+    padding-right: 10px;
+    /* box-shadow: 2px 2px #9c9a9a; */
+    /* border: none; */
+    margin-top: 15px;
+    display: flex;
+    flex-direction: initial;
+    border: 0;
+    outline: 0;
+    /* box-shadow: 0px 2px 9px -4px rgb(0 0 0); */
+ }
+ .selected-club{
+     /* margin-top: 15px;
+     margin-bottom: 10px; */
+ }
+
